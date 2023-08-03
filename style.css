@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(24, 24, 27);
+  color: whitesmoke;
+  font-family: "Inter", sans-serif;
+}
+
+main {
+  max-width: 40%;
+  margin: auto;
+  margin-top: 8vh;
+  display: flex;
+  flex-flow: column;
+}
+h2 {
+  color: rgb(113, 113, 113);
+}
+
+/* BARRITA DIVISORA */
+hr {
+  margin: 2px 0 9px 0;
+  color: purple;
+  /* width: 128%; */
+}
+.divisor_titulo {
+  width: 70%;
+}
+/* FIN BARRITA DIVISORA */
+
+/* SECCIÓN TÍTULO */
+#banner {
+  display: flex;
+  /* text-align: justify; */
+}
+
+/* FOTO DE PERFIL */
+.avatar {
+  width: 110px;
+  height: 108px;
+  border-radius: 9999px;
+  margin-right: 1rem;
+  display: flex;
+  place-content: center;
+  background: linear-gradient(to right, red, purple);
+}
+
+.redondeado {
+  border-radius: 9999px;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  margin-top: 3px;
+  object-fit: cover;
+}
+/* FIN FOTO DE PERFIL */
+/* FIN SECCIÓN TÍTULO */
+
+/* SECCIÓN SOBRE MÍ */
+
+p {
+  max-width: 70%;
+  min-width: 200px;
+  padding: 20px 0;
+  font-size: 1.2rem;
+}
+
+/* SECCIÓN CONTACTO */
+
+#sobre_mi,
+#contacto {
+  margin-left: 126px;
+  text-align: justify;
+}
+
+form {
+  display: flex;
+  flex-flow: column;
+  max-width: 70%;
+}
+
+input,
+button,
+textarea {
+  padding: 0.7rem;
+  margin: 10px 0px;
+  border: none;
+  border-radius: 5px;
+  background-color: #333;
+  color: whitesmoke;
+}
+input:focus,
+textarea:focus,
+button {
+  outline: solid 2.5px purple;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #3f3f3f;
+}
+/* FIN SECCIÓN CONTACTO */
+
+/* FOOTER */
+
+footer {
+  background-color: #333;
+  margin: 25px 0 0 0;
+}
+#footer {
+  display: flex;
+  place-content: center;
+  padding-right: 70px;
+}
+/* FIN FOOTER */

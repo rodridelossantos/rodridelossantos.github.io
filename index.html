@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Portafolio - Rodrigo de los Santos</title>
+  </head>
+  <body>
+    <main>
+      <div id="banner">
+        <div class="avatar">
+          <img
+            class="redondeado"
+            src="./img/perfil_cantera_piedra.jpg"
+            alt="yo encima de una piedra" />
+        </div>
+        <div id="nombre_apellido">
+          <h1>Rodrigo de los Santos</h1>
+          <hr />
+          <h2>Estudiante de Desarrollo Web</h2>
+        </div>
+      </div>
+
+      <section id="sobre_mi">
+        <div class="titulo"><h2>Sobre mí</h2></div>
+        <hr class="divisor_titulo" />
+        <p>
+          Hola! Mi nombre es Rodrigo, tengo 23 años y me gusta la música, tocar
+          la guitarra, jugar videojuegos y, sobre todo, la programación. En
+          cuanto a mi experiencia en JaP, puedo decir que hasta el momento la he
+          disfrutado enormemente. Aunque he enfrentado varios desafíos durante
+          mi cursada, considero fundamental seguir adelante y tomar cada
+          obstáculo como un aprendizaje. Mantengo mi entusiasmo y estoy con
+          muchas ganas de seguir esforzándome y desarrollándome en este campo!
+        </p>
+      </section>
+
+      <section id="contacto">
+        <div class="titulo">
+          <h2>Contacto</h2>
+        </div>
+        <hr class="divisor_titulo" />
+        <form action="">
+          <label for="nombre"></label>
+          <input
+            type="text"
+            name="nombre"
+            id="nombre"
+            placeholder="Nombre y apellido" />
+          <label for="email"></label>
+          <input type="email" name="email" id="email" placeholder="Email" />
+          <label for="mensaje"></label>
+          <textarea
+            name="mensaje"
+            id="mensaje"
+            cols="30"
+            rows="10"
+            placeholder="Mensaje"></textarea>
+          <button type="submit" name="submit">Enviar</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <div id="footer">
+        <p>&copy; 2023 Rodrigo de los Santos</p>
+      </div>
+    </footer>
+  </body>
+</html>
